@@ -16,9 +16,16 @@
       {
         "label": "Ruby Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/Rubi Theme-color-theme.json",
+        "path": "./themes/rubi-italic-color-theme.json",
         "icon": "./themes/LogoRubyTheme.png",
         "id": "ruby-theme"
+      },
+      {
+        "label": "Ruby Theme No Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rubi-no-italic-color-theme.json",
+        "icon": "./themes/LogoRubyTheme.png",
+        "id": "ruby-theme-no-italic"
       }
     ]
   }
