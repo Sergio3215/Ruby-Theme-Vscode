@@ -5,6 +5,7 @@
 		"editorGroupHeader.tabsBorder": "#530000",
 		"editorGroup.border": "#530000",
 		"editorGroup.dropBackground": "#460000",
+		
 		"editor.background": "#3b0000",
 		"editor.foreground": "#dbcea3",
 		"editorLineNumber.foreground": "#dbcea3",
@@ -17,12 +18,12 @@
 		"editor.findMatchBackground": "#460000",
 		"editor.findMatchHighlightBackground": "#460000e3",
 		"editor.findRangeHighlightBackground": "#460000e3",
-		"editor.hoverHighlightBackground": "#460000e3",
-		"editor.lineHighlightBackground": "#460000",
+		"editor.hoverHighlightBackground": "#a10000c2",
+		"editor.lineHighlightBackground": "#6e0000",
 
 		"editorLink.activeForeground": "#82AAFF",
 
-		"editorWhitespace.foreground": "#7e0000",
+		"editorWhitespace.foreground": "#dbcea3",
 
 		"editorRuler.foreground": "#530000",
 
@@ -126,7 +127,7 @@
 		"gitDecoration.deletedResourceForeground": "#7c0015",
 		"gitDecoration.stageDeletedResourceForeground": "#7c0015",
 		"gitDecoration.untrackedResourceForeground": "#4ab335",
-		"gitDecoration.ignoredResourceForeground": "#7e0000",
+		"gitDecoration.ignoredResourceForeground": "#8b0000",
 		"gitDecoration.conflictingResourceForeground": "#FF5370",
 		"gitDecoration.submoduleResourceForeground": "#8284ff",
 

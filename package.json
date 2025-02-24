@@ -1,11 +1,13 @@
 {
   "name": "sd-ruby-extension-vs",
-  "displayName": "sd-ruby-vs",
+  "displayName": "Ruby Carmesí Theme",
   "description": "Color ruby en el visual studio",
-  "version": "0.0.1",
+  "version": "1.0.1",
+  "icon": "resources/logo.png",
   "engines": {
     "vscode": "^1.97.0"
   },
+  "publisher": "sd-tools",
   "categories": [
     "Themes"
   ],
@@ -15,7 +17,8 @@
         "label": "Ruby Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Rubi Theme-color-theme.json",
-        "icon": "./themes/LogoRubyTheme.png"
+        "icon": "./themes/LogoRubyTheme.png",
+        "id": "ruby-theme"
       }
     ]
   }
