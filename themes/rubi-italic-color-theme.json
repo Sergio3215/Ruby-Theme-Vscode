@@ -15,11 +15,13 @@
 		"editor.selectionForeground": "#dbcea3",
 		"editor.inactiveSelectionBackground": "#660000f1",
 		"editor.selectionHighlightBackground": "#460000e3",
-		"editor.findMatchBackground": "#460000",
-		"editor.findMatchHighlightBackground": "#460000e3",
-		"editor.findRangeHighlightBackground": "#460000e3",
-		"editor.hoverHighlightBackground": "#a10000c2",
+		"editor.findMatchBackground": "#e43c3cf1",
+		"editor.findMatchHighlightBackground": "#bb0303f1",
+		"editor.findRangeHighlightBackground": "#880000e3",
+		"editor.hoverHighlightBackground": "#df0000c2",
+		"editor.wordHighlightStrongBackground": "#df2828e8",
 		"editor.lineHighlightBackground": "#790000",
+		"editor.lineHighlightBorder": "#df0000c2",
 
 		"editorLink.activeForeground": "#82AAFF",
 
@@ -56,13 +58,18 @@
 		"statusBar.debuggingForeground": "#dbcea3",
 		"statusBar.debuggingBorder": "#530000",
 		"statusBar.noFolderBorder": "#530000",
+		"statusBarItem.hoverForeground": "#dbcea3",
+		"statusBarItem.prominentHoverForeground": "#dbcea3",
+		"statusBarItem.remoteForeground": "#dbcea3",
+		"statusBarItem.remoteBackground": "#460000",
+		"statusBarItem.remoteHoverBackground": "#460000",
 		
 		"statusBarItem.activeBackground": "#460000",
 		"statusBarItem.hoverBackground": "#460000",
 		"statusBarItem.prominentBackground": "#460000",
 		"statusBarItem.prominentHoverBackground": "#460000",
 
-		"list.hoverBackground": "#530000",
+		"list.hoverBackground": "#880000e3",
 		"list.activeSelectionBackground": "#460000",
 		"list.activeSelectionForeground": "#dbcea3",
 		"list.inactiveSelectionBackground": "#440000",
@@ -141,11 +148,23 @@
 		"menubar.selectionForeground": "#dbcea3",
 
         "editorSuggestWidget.background": "#3b0000",
-        "editorSuggestWidget.border": "#530000",
-		"editorSuggestWidget.foreground": "#dbcea3",
+        "editorSuggestWidget.border": "#6b0000",
+		"editorSuggestWidget.foreground": "#ffecac",
 		"editorSuggestWidget.highlightForeground": "#dbcea3",
-        "editorSuggestWidget.selectedBackground": "#460000",
-        "editorSuggestWidget.selectedForeground": "#dbcea3",
+        "editorSuggestWidget.selectedBackground": "#6b0000",
+        "editorSuggestWidget.selectedForeground": "#f7d463",
+		"editorSuggestWidget.focusHighlightForeground": "#f7d463",
+        
+        "editorSuggestWidgetStatus.foreground": "#ffd857",
+
+		"editor.snippetTabstopHighlightBackground": "#460000",
+		"editor.snippetTabstopHighlightBorder": "#dbcea3",
+		"editor.snippetFinalTabstopHighlightBackground": "#460000",
+		"editor.snippetFinalTabstopHighlightBorder": "#dbcea3",
+
+		"editorHoverWidget.background": "#810505ec",
+		"editorHoverWidget.border": "#bb1212",
+		"editorHoverWidget.foreground": "#dbcea3",
 
 		"peekViewEditor.background": "#3b0000",
 		"peekViewEditor.matchHighlightBackground": "#460000",
@@ -172,6 +191,97 @@
 		"settings.headerBorder": "#6d0101",
 		"settings.focusedRowBackground": "#630000",
 		"settings.focusedRowBorder": "#8b0101",
+
+		"notifications.background": "#570000",
+		"notifications.foreground": "#fae7aa",
+		"notifications.border": "#530000",
+
+		"notificationCenter.border": "#530000",
+		"notificationCenterHeader.foreground": "#dbcea3",
+		"notificationCenterHeader.background": "#530000",
+		
+		"notificationToast.border": "#9e0101d8",
+		
+		"notificationsErrorIcon.foreground": "#ff6881",
+		"notificationsWarningIcon.foreground": "#f0ce71",
+		"notificationsInfoIcon.foreground": "#9fbdfd",
+
+		"notebook.editorBackground": "#3b0000",
+		"notebook.cellBorderColor": "#d40606",
+		"notebook.focusedEditorBorder": "#dbcea3",
+		"notebookStatusSuccessIcon.foreground": "#82f395",
+		"notebookStatusErrorIcon.foreground": "#f3556f",
+		"notebookStatusRunningIcon.foreground": "#f0ce71",
+		"notebook.cellToolbarSeparator": "#a50606",
+		"notebook.focusedCellBackground": "#7500009f",
+		"notebook.selectedCellBackground": "#920202",
+		"notebook.cellHoverBackground": "#920000a6",
+		"notebook.focusedCellBorder": "#dbcea3",
+		"notebook.selectedCellBorder": "#dbcea3",
+		"notebook.symbolHighlightBackground": "#dbcea3",
+		"notebookScrollbarSlider.background": "#a86666",
+		"notebookScrollbarSlider.hoverBackground": "#dd8787",
+		"notebookScrollbarSlider.activeBackground": "#dd8787",
+		"notebook.cellStatusBarItemHoverBackground": "#dbcea3",
+		"notebook.cellInsertionIndicator": "#dbcea3",
+		
+        "titleBar.activeBackground": "#970000ab",
+        "titleBar.activeForeground": "#ffe696ec",
+        "titleBar.inactiveBackground": "#6e0000d7",
+        "titleBar.inactiveForeground": "#b1a068",
+		"titleBar.border": "#bb0000a8",
+
+		"breadcrumb.focusForeground": "#f3e4b5",
+		"breadcrumb.activeSelectionForeground": "#fdb352",
+		"breadcrumb.background": "#610000",
+		"breadcrumb.foreground": "#dbcea3",
+		
+		"breadcrumbPicker.background": "#690000",
+
+		"symbolIcon.referenceForeground": "#dbcea3",
+
+		"panelSection.border": "#750202",
+		"panelSection.dropBackground": "#460000",
+		"panelSectionHeader.background": "#530000",
+		"panelSectionHeader.foreground": "#dbcea3",
+		"panelSectionHeader.border": "#750202",
+
+		"panel.border": "#530000",
+		"panel.background": "#3b0000",
+
+		"panelTitle.activeBorder": "#ffc400da",
+		"panelTitle.activeForeground": "#ffc400da",
+		"panelTitle.inactiveForeground": "#b19025ee",
+
+		"panelInput.border": "#750202",
+
+		"panelStickyScroll.border": "#530000",
+
+		"panel.dropBorder": "#dbcea3",
+
+		"extensionButton.background": "#8b0000de",
+		"extensionButton.prominentBackground": "#a00000",
+		"extensionButton.prominentHoverBackground": "#660000",
+		"extensionButton.hoverBackground": "#d30000e0",
+		"extensionIcon.starForeground": "#f0ce71",
+		
+		"extensionBadge.remoteBackground": "#790000",
+		"extensionBadge.remoteForeground": "#dbcea3",
+
+		"dropdown.background": "#680101",
+		"dropdown.border": "#6d0101",
+		"dropdown.foreground": "#f0ce71",
+		"dropdown.listBackground": "#680101",
+		
+		"banner.background": "#3b0000",
+		"banner.foreground": "#dbcea3",
+		"banner.iconForeground": "#dbcea3",
+
+		"pickerGroup.border": "#530000",
+		"pickerGroup.foreground": "#dbcea3",
+		
+		"quickInputList.focusBackground": "#750000",
+		
 	},
 	"tokenColors": [
 		{
