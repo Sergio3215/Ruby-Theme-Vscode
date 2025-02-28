@@ -285,6 +285,34 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Const Function declaration",
+			"scope": [
+				"storage.type",
+			],
+			"settings": {
+			  "foreground": "#c486fd", // Cambia este color según tu preferencia
+			  "fontStyle": "bold italic" // Opcional: hace que las constantes estén en negrita
+			}
+		},
+		{
+			"name": "Object key literal",
+			"scope": [
+  			  "meta.object-literal.key",
+  			],
+			"settings": {
+			  "foreground": "#eb6629" // Cambia el color de las propiedades de un objeto
+			}
+		},
+		{
+			"name": "Object key when is call",
+			"scope": [
+			  "variable.other.property",
+  			],
+			"settings": {
+			  "foreground": "#17c78c" // Cambia el color de las propiedades de un objeto
+			}
+		},
+		{
 			"name": "Comment",
 			"scope": [
 				"comment",
@@ -329,7 +357,6 @@
 			"name": "Keyword, Storage",
 			"scope": [
 				"keyword",
-				"storage.type",
 				"storage.modifier"
 			],
 			"settings": {
